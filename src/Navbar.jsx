@@ -4,19 +4,19 @@ const Navbar = () => {
   return (
     <>
       <div className="Nav">
-        <NavLink className="Nav_link" exact to="/">
+        <NavLink className="Nav_link"  to="/">
           Home
         </NavLink>
-        <NavLink className="Nav_link" exact to="/about">
+        <NavLink className="Nav_link"  to="/about">
           About
         </NavLink>
-        <NavLink className="Nav_link" exact to="/contact">
+        <NavLink className="Nav_link"  to="/contact">
           Contact
         </NavLink>
-        <NavLink className="Nav_link" exact to="/skills">
+        <NavLink className="Nav_link"  to="/skills">
           Skills
         </NavLink>
-        <NavLink className="Nav_link" exact to="/projects">
+        <NavLink className="Nav_link"  to="/projects">
           Projects
         </NavLink>
       </div>

@@ -8,6 +8,32 @@
 body{
   overflow-x: hidden;
 }
+.About{
+  width: 30%;
+  margin-top: -50%;
+  padding-top: 20px;
+ 
+}
+.Search{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.Search input{
+  text-align: center;
+  width: 18%;
+  height: 25px;
+  margin-bottom: 20px;
+  border-radius: 11px;
+  cursor: pointer;
+  border: 3px solid red;
+  text-transform: capitalize;
+}
+
+
 .Nav{
   width: 100%;
   height: 35px;
