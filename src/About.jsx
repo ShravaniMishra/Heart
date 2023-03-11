@@ -36,7 +36,7 @@ const About = () => {
         </p>
         <br />
         <p>
-          I meet a guy, was elder to me. Bold Eyes ,Shiny Face, Handsome Look
+          I meet a guy, was Younger to me. Bold Eyes ,Shiny Face, Handsome Look
           with lots of Attitude.{" "}
         </p>
         <h2>"October 11 - 2022"-- My Lucky Date </h2>
