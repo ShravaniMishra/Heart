@@ -41,7 +41,25 @@ const About = () => {
         </p>
         <h2>"October 11 - 2022"-- My Lucky Date </h2>
         <p>
-          I Love Him More <span style={{fontSize:"40px"}}>💝</span>
+          I Love Him More <span style={{ fontSize: "40px" }}>💝</span>
+        </p>
+      </div>
+
+      <div className="AboutGovind">
+        <h1>He is from Himanchal</h1>
+        <h3>My LifeLine.</h3>
+        <p>
+          I don't know what to say about him, In Simple term "A Genious Person"
+        </p>
+        <p>
+          Always listen to my messy words,Spends valuable time with me,Respects
+          me,Loves me more and sometimes get jealous{" "}
+          <span style={{ fontSize: "30px" }}>😍</span>.
+        </p>
+        <h2>"October 11 - 2022"-- Officially came into a Relationship</h2>
+        <p>
+          He Love Me More than Anything{" "}
+          <span style={{ fontSize: "40px" }}>💝</span>
         </p>
       </div>
     </>
