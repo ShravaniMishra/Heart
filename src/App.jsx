@@ -6,19 +6,21 @@ import Contact from './Contact';
 import Projects from './Projects';
 import Skills from './Skills';
 import Navbar from './Navbar';
+import Error from './Error';
 function App() {
   
 
   return (
     <div className="App">
       <>
-      <Navbar/>
+        <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home/>}></Route>
-          <Route exact path="/about" element={<About/>}></Route>
-          <Route exact path="/contact" element={<Contact/>}></Route>
-          <Route exact path="/skills" element={<Skills/>}></Route>
-          <Route exact path="/projects" element={<Projects/>}></Route>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
+          <Route exact path="/skills" element={<Skills />}></Route>
+          <Route exact path="/projects" element={<Projects />}></Route>
+          <Route path='*' element={<Error />} />
         </Routes>
       </>
     </div>
