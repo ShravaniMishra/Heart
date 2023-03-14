@@ -62,23 +62,37 @@ margin-top: -33%;
 .Home_main{
   width: 100%;
     margin-top: 20px;
-  background-image: linear-gradient(rgb(52, 94, 94),rgb(202, 185, 202));
+  
 }
 .Home{
-
-  width: 80%;
+width: 80%;
 }
 .Home > img{
+  width: 40%;
+  border-radius:60%;
+  box-sizing:150px;
   margin-top: 30px;
   margin-left: -20%;
-  transition: all 0.5s ease-in;
+  
 }
 .Home > div{
   text-align: right;
   margin-top: -100px;
 }
 
-
+.Home > img:hover{
+transition: all 0.5s ease-in;
+zoom: 0fr;
+}
+.box{
+  width: 60%;
+  text-align: right;
+  margin-left:20% ;
+  margin-top: -20%;
+}
+.box > h2{
+  padding-left: 40%;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
